@@ -4,7 +4,6 @@ export default{
             id: 1,
             title: "Albatross",
             service: "UI/UX Design",
-            imgSrc:"../public/projectImg/albatross.PNG",
             github:"https://github.com/ssullivan14/codecampProject1.git",
             deployment:"https://ssullivan14.github.io/codecampProject1/"
         },
@@ -12,15 +11,13 @@ export default{
             id: 2,
             title: "Financial Frenzy",
             service: "UI/UX Design",
-            imgSrc:"../public/projectImg/financial.PNG",
             github: "https://github.com/GageDorl/financial_friend-z.git",
             deployment:"https://powerful-dawn-47171.herokuapp.com/"
         },
         {
             id: 3,
             title: "Ride and Dine",
-            service: "",
-            imgSrc:"../public/projectImg/rnd.PNG",
+            service: "*",
             github: "https://github.com/smswanlund/ride-and-dine.git",
             deployment:"https://ride-and-dine.herokuapp.com/"
         }

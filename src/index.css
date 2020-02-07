@@ -11,3 +11,8 @@ div[data-reactroot] {
   padding: 0;
   margin: 0;
 }
+
+#projImg {
+  height: 200px;
+  width: auto;
+}
