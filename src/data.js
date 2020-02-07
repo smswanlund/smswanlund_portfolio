@@ -21,22 +21,5 @@ export default{
             github: "https://github.com/smswanlund/ride-and-dine.git",
             deployment:"https://ride-and-dine.herokuapp.com/"
         }
-    ],
-    documents: [
-        {
-            id: 1,
-            title: "2020 Resume",
-            pdfLink:"../public/documentPDF/resume.pdf",
-        },
-        {
-            id: 2,
-            title: "College Thesis Summary",
-            pdfLink: "../public/documentPDF/thesisSummary.pdf"
-        },
-        {
-            id: 3,
-            title: "College Thesis",
-            pdfLink: "../public/documentPDF/thesis.pdf"
-        }
     ]
 }

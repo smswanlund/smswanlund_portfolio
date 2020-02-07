@@ -3,7 +3,6 @@ import {Container} from "../components/Grid";
 import {Row} from "../components/Grid";
 import {Col} from "../components/Grid";
 import Project from "../components/Project";
-import Document from "../components/Document";
 import data from "../data";
 import Albatross from "./assets/projectImg/albatross.PNG";
 import Financial from "./assets/projectImg/financial.PNG";
@@ -32,18 +31,6 @@ function Projects() {
                                     <img id="projImg" src={rnd} alt="rnd"></img>
                                     <Project key={data.projects[2].id} title={data.projects[2].title} service={data.projects[2].service} github={data.projects[2].github} deployment={data.projects[2].deployment}></Project>
                                 </div>
-                            </div>
-                        </Col>
-                    </Row>
-                    <br></br>
-                    <Row>
-                        <Col size="md-12">
-                            <div className="documentContent">
-                                {data.documents.map((document)=>(
-                                    <Document key={document.id}
-                                    title={document.title}
-                                    link={document.pdfLink}></Document>
-                                ))}
                             </div>
                         </Col>
                     </Row>

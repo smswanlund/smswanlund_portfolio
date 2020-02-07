@@ -6,7 +6,14 @@ import {Col} from "../components/Grid";
 function About() {
   return(
     <Container fluid>
-      
+      <div className="cardHeader">
+        <h1>About Me</h1>
+      </div>
+      <Row>
+        <Col size="md-12">
+          <p></p>
+        </Col>
+      </Row>
     </Container>
   )
 }
