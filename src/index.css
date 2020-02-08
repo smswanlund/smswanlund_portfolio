@@ -12,7 +12,97 @@ div[data-reactroot] {
   margin: 0;
 }
 
+body {
+  background-color: rgb(164, 168, 160);
+  
+}
+
+.content {
+  background-color: rgb(61, 119, 90);
+  margin: 5%;
+  padding: 3%;
+  border-radius: 15px;
+  font-family: 'Lato', sans-serif;
+  min-height:400px;
+}
+
+.cardHeader {
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
+
+#pageBody {
+  border: 2px solid black;
+  height: 100%;
+  padding: 0px;
+}
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+#profilePic {
+  height: 300px;
+  width: auto;
+}
+
+.projectContent {
+  width:100%;
+  margin-right: 50px;
+
+}
+
 #projImg {
+  height: 185px;
+  width: 45%
+}
+
+.projectCard {
+  height: 200px;
+  width: 400px;
+  background-color: paleturquoise;
+  border: 2px solid blue;
+  border-radius:10px;
+  padding: 5px;
+  margin: 5px;
+  float:left;
+  
+}
+
+.project {
+  position: relative;
+  bottom: 150px;
+  left: 90px;
+  text-align: center;
+}
+
+a {
+  color: purple;
+}
+
+#thumbnail {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  border-radius: 100px;
+}
+#thumbnail:hover {
+  background-color: white;
+  height: 35px;
+  width: 35px;
+}
+
+#profilePic {
   height: 200px;
   width: auto;
+  float: left;
+  border: 3px solid rgb(44, 61, 45);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }

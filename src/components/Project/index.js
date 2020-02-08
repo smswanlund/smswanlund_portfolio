@@ -5,9 +5,10 @@ class Project extends Component {
     render() {
         return(
         <div className="project">
-            <h3>{this.props.title}</h3>
-            <a href={this.props.github}>Github Repo</a>
-            <a href={this.props.deployment}>Deployed App</a>
+            <h3 id ="projTitle">{this.props.title}</h3>
+            <a id="projLink" href={this.props.github}>Github Repo</a>
+            <br></br>
+            <a id="projLink" href={this.props.deployment}>Deployed App</a>
         </div>
         )
     }
