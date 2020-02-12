@@ -8,7 +8,7 @@ function Contact() {
     <Container fluid>
       <div className="content">
       <div className="cardHeader">
-        <h1>Contact Me</h1>
+        <h1>Contact</h1>
       </div>
       <p id="emailp">Email me at: <span id="emailval">smswanlund1513@gmail.com</span></p>
       <div style={{textAlign:"center"}}>

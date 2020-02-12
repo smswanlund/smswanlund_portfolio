@@ -13,15 +13,16 @@ div[data-reactroot] {
 }
 
 body {
-  background-color: rgb(164, 168, 160);
-  
+  background-color: rgb(238, 241, 235);
+  color:rgb(65, 53, 30);
 }
 
 .content {
-  background-color: rgb(61, 119, 90);
+  background-image: linear-gradient(rgb(214, 212, 111), rgb(238, 241, 235));
   margin: 5%;
-  padding: 3%;
-  border-radius: 15px;
+  padding-right: 3%;
+  padding-left: 3%;
+  border-radius: 8px;
   font-family: 'Lato', sans-serif;
   min-height:400px;
 }
@@ -32,7 +33,6 @@ body {
 }
 
 #pageBody {
-  border: 2px solid black;
   height: 100%;
   padding: 0px;
 }
@@ -54,30 +54,34 @@ body {
 
 #projImg {
   height: 185px;
-  width: 45%
+  width: 185px;
+  border-radius: 10px;
+  border: 1px solid 
+}
+
+#projTitle {
+  font-size: auto;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
 }
 
 .projectCard {
   height: 200px;
   width: 400px;
-  background-color: paleturquoise;
-  border: 2px solid blue;
+  background-image: linear-gradient( rgb(126, 109, 34), transparent);
   border-radius:10px;
-  padding: 5px;
+  padding: 10px;
   margin: 5px;
   float:left;
-  
 }
 
 .project {
+  
   position: relative;
   bottom: 150px;
-  left: 90px;
+  left: 200px;
   text-align: center;
-}
-
-a {
-  color: purple;
+  width: 150px;
 }
 
 #thumbnail {
@@ -87,7 +91,7 @@ a {
   border-radius: 100px;
 }
 #thumbnail:hover {
-  background-color: white;
+  background-color: rgb(223, 157, 81);
   height: 35px;
   width: 35px;
 }
@@ -99,6 +103,18 @@ a {
   border: 3px solid rgb(44, 61, 45);
   border-radius: 10px;
   margin-right: 10px;
+}
+
+#emailp {
+  font-size:25px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#emailval {
+  font-weight: bold;
+  padding-left: 10px;
+  text-decoration: underline;
 }
 
 .clearfix::after {

@@ -3,11 +3,12 @@ nav.navbar.navbar-default {
 }
 
 .navbar {
-  background-color: skyblue;
-  border-bottom: 5px solid rgb(134, 150, 223);
+  background-color: rgb(216, 180, 83);
+  border-bottom: 5px solid rgb(238, 226, 123);
 }
 
 .navbar-brand {
   font-size: 30px;
   font-family: 'Playfair Display SC', serif;
+  color:rgb(65, 53, 30);
 }
