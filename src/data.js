@@ -17,7 +17,7 @@ export default{
         {
             id: 3,
             title: "Ride and Dine",
-            service: "*",
+            service: "Database Management",
             github: "https://github.com/smswanlund/ride-and-dine.git",
             deployment:"https://ride-and-dine.herokuapp.com/"
         }
